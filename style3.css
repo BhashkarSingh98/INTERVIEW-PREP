@@ -1,0 +1,74 @@
+button{
+    height: 40px;
+    width: 150px;
+    background-color: rgba(0, 0, 255, 0.831);
+    border-radius: 5px;
+    border: navajowhite;
+    margin-left: 100px;
+}
+.button{
+    color: aliceblue;
+    text-decoration: none;
+}
+.text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+.box1{
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    background-color: greenyellow;
+   transition: 2s;
+   border-radius: 5px;
+   margin-left: 100px;
+}
+.box1:hover{
+    width: 220px;
+
+}
+.box2{
+    margin-left: 100px;
+    height: 110px;
+    width: 110px;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 255, 0.952);
+}
+.box3{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    margin-bottom: 40px;
+    background-color: black;
+    border-radius: 5px;
+    animation-name: box3;
+    animation-duration: .1s;
+    animation-iteration-count: infinite;
+    margin-left: 100px;
+
+
+}
+@keyframes box3{
+    0%{
+        transform: rotate(360deg);
+
+    }
+    25%{
+        transform: rotate(360deg);
+        border-radius: 50%;
+
+    }
+    50%{
+        transform: rotate(360deg);
+        border-radius: 80%;
+        background-color: rgba(14, 6, 6, 0.493);
+       
+       
+
+    }
+    
+
+    
+   
+}
